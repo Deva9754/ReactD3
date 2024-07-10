@@ -1,6 +1,6 @@
 import "./App.css";
+import BasicComponents from "./components/BasicComponents";
 import CommonElements from "./components/commonElements";
-import DataBinding from "./components/DataBinding";
 import SelectElement from "./components/SelectElement";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <CommonElements />
       <SelectElement />
-      <DataBinding />
+      <BasicComponents />
     </div>
   );
 }
